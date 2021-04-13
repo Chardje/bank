@@ -56,30 +56,31 @@ namespace bank
             this.SText.AutoSize = true;
             this.SText.Location = new System.Drawing.Point(12, 9);
             this.SText.Name = "SText";
-            this.SText.Size = new System.Drawing.Size(45, 13);
+            this.SText.Size = new System.Drawing.Size(76, 13);
             this.SText.TabIndex = 1;
-            this.SText.Text = "Деньги";
+            this.SText.Text = "Кол бактерий";
             // 
             // RText
             // 
             this.RText.AutoSize = true;
             this.RText.Location = new System.Drawing.Point(12, 46);
             this.RText.Name = "RText";
-            this.RText.Size = new System.Drawing.Size(50, 13);
+            this.RText.Size = new System.Drawing.Size(214, 13);
             this.RText.TabIndex = 2;
-            this.RText.Text = "Процент";
+            this.RText.Text = "кол на которое увеличиваются бактерии";
             // 
             // NText
             // 
             this.NText.AutoSize = true;
             this.NText.Location = new System.Drawing.Point(12, 81);
             this.NText.Name = "NText";
-            this.NText.Size = new System.Drawing.Size(104, 13);
+            this.NText.Size = new System.Drawing.Size(54, 13);
             this.NText.TabIndex = 3;
-            this.NText.Text = "Через сколько лет";
+            this.NText.Text = "Умирают";
             // 
             // S
             // 
+            this.S.Enabled = false;
             this.S.Location = new System.Drawing.Point(15, 25);
             this.S.Maximum = new decimal(new int[] {
             1000000,
@@ -89,6 +90,11 @@ namespace bank
             this.S.Name = "S";
             this.S.Size = new System.Drawing.Size(120, 20);
             this.S.TabIndex = 4;
+            this.S.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // r
             // 
@@ -96,6 +102,7 @@ namespace bank
             this.r.Name = "r";
             this.r.Size = new System.Drawing.Size(120, 20);
             this.r.TabIndex = 5;
+            this.r.ValueChanged += new System.EventHandler(this.r_ValueChanged);
             // 
             // N
             // 
