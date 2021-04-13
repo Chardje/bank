@@ -122,6 +122,7 @@ namespace bank
             this.Controls.Add(this.RText);
             this.Controls.Add(this.SText);
             this.Controls.Add(this.Вивод);
+            this.Enabled = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
