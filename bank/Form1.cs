@@ -26,12 +26,12 @@ namespace bank
         
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            double rd;
+            //double rd;
             int x = Convert.ToInt32( S.Value);
             for (int i=0;i<N.Value;i++)
             {
-                rd = 1 + (R.Next(0,20)/100);
-                e.Graphics.DrawString($"{i}: {((i + 1) * rd * x / 100) + x}",DefaultFont,Brushes.Black,new Point(200,i*10));                
+                //rd = 1 + (R.Next(0,20)/100);
+                e.Graphics.DrawString($"{i}: {(i + 1) * r.Value * x / 100 * 12 + x}",DefaultFont,Brushes.Black,new Point(200,i*10));                
             }
         }
 
