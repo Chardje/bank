@@ -34,10 +34,10 @@ namespace bank
             this.RText = new System.Windows.Forms.Label();
             this.NText = new System.Windows.Forms.Label();
             this.S = new System.Windows.Forms.NumericUpDown();
-            this.R = new System.Windows.Forms.NumericUpDown();
+            this.r = new System.Windows.Forms.NumericUpDown();
             this.N = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.S)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.R)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.r)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.N)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,12 +90,12 @@ namespace bank
             this.S.Size = new System.Drawing.Size(120, 20);
             this.S.TabIndex = 4;
             // 
-            // R
+            // r
             // 
-            this.R.Location = new System.Drawing.Point(15, 58);
-            this.R.Name = "R";
-            this.R.Size = new System.Drawing.Size(120, 20);
-            this.R.TabIndex = 5;
+            this.r.Location = new System.Drawing.Point(15, 58);
+            this.r.Name = "r";
+            this.r.Size = new System.Drawing.Size(120, 20);
+            this.r.TabIndex = 5;
             // 
             // N
             // 
@@ -116,7 +116,7 @@ namespace bank
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.N);
-            this.Controls.Add(this.R);
+            this.Controls.Add(this.r);
             this.Controls.Add(this.S);
             this.Controls.Add(this.NText);
             this.Controls.Add(this.RText);
@@ -126,7 +126,7 @@ namespace bank
             this.Text = "Form1";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.S)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.R)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.r)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.N)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -140,7 +140,7 @@ namespace bank
         private System.Windows.Forms.Label RText;
         private System.Windows.Forms.Label NText;
         private System.Windows.Forms.NumericUpDown S;
-        private System.Windows.Forms.NumericUpDown R;
+        private System.Windows.Forms.NumericUpDown r;
         private System.Windows.Forms.NumericUpDown N;
     }
 }
