@@ -31,7 +31,7 @@ namespace bank
             for (int i=0;i<N.Value;i++)
             {
                 rd = 1 + (R.Next(0,20)/100);
-                e.Graphics.DrawString($"{i}: {((i + 1) * rd * x / 100) + x}",DefaultFont,Brushes.Black,new Point(200,i*10));                
+                e.Graphics.DrawString($"{ i+2000}: {Math.Round((i * r.Value * x / 100) + x)}",DefaultFont,Brushes.Black,new Point(200,i*10));                
             }
         }
 

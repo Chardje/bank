@@ -56,18 +56,18 @@ namespace bank
             this.SText.AutoSize = true;
             this.SText.Location = new System.Drawing.Point(12, 9);
             this.SText.Name = "SText";
-            this.SText.Size = new System.Drawing.Size(45, 13);
+            this.SText.Size = new System.Drawing.Size(71, 13);
             this.SText.TabIndex = 1;
-            this.SText.Text = "Деньги";
+            this.SText.Text = "Люди в 2000";
             // 
             // RText
             // 
             this.RText.AutoSize = true;
             this.RText.Location = new System.Drawing.Point(12, 46);
             this.RText.Name = "RText";
-            this.RText.Size = new System.Drawing.Size(50, 13);
+            this.RText.Size = new System.Drawing.Size(53, 13);
             this.RText.TabIndex = 2;
-            this.RText.Text = "Процент";
+            this.RText.Text = "Процент ";
             // 
             // NText
             // 
@@ -99,6 +99,7 @@ namespace bank
             // 
             // N
             // 
+            this.N.Enabled = false;
             this.N.Location = new System.Drawing.Point(15, 97);
             this.N.Maximum = new decimal(new int[] {
             10000,
@@ -108,6 +109,11 @@ namespace bank
             this.N.Name = "N";
             this.N.Size = new System.Drawing.Size(120, 20);
             this.N.TabIndex = 6;
+            this.N.Value = new decimal(new int[] {
+            16,
+            0,
+            0,
+            0});
             this.N.ValueChanged += new System.EventHandler(this.numericUpDown3_ValueChanged);
             // 
             // Form1
