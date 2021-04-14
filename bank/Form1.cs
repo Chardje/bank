@@ -28,16 +28,16 @@ namespace bank
         {
             double rd;
             int x = Convert.ToInt32( S.Value);
-            for (int i=0;i<N.Value;i++)
-            {
-                rd = 1 + (R.Next(0,20)/100);
-                e.Graphics.DrawString($"{i}: {((i + 1) * rd * x / 100) + x}",DefaultFont,Brushes.Black,new Point(200,i*10));                
-            }
+            
         }
 
         private void Вивод_Click(object sender, EventArgs e)
         {
-            Invalidate();
+            for (int i = 1; i < 10; i++)
+            {
+                listBox1.Items.Add($"{S.Value} * {i} = {S.Value*i}");
+            }
+            //Invalidate();
         }
     }
 }
