@@ -56,27 +56,27 @@ namespace bank
             this.SText.AutoSize = true;
             this.SText.Location = new System.Drawing.Point(12, 9);
             this.SText.Name = "SText";
-            this.SText.Size = new System.Drawing.Size(45, 13);
+            this.SText.Size = new System.Drawing.Size(134, 13);
             this.SText.TabIndex = 1;
-            this.SText.Text = "Деньги";
+            this.SText.Text = "Ізначальное кол деталей";
             // 
             // RText
             // 
             this.RText.AutoSize = true;
             this.RText.Location = new System.Drawing.Point(12, 46);
             this.RText.Name = "RText";
-            this.RText.Size = new System.Drawing.Size(50, 13);
+            this.RText.Size = new System.Drawing.Size(76, 13);
             this.RText.TabIndex = 2;
-            this.RText.Text = "Процент";
+            this.RText.Text = "Каждий раз +";
             // 
             // NText
             // 
             this.NText.AutoSize = true;
             this.NText.Location = new System.Drawing.Point(12, 81);
             this.NText.Name = "NText";
-            this.NText.Size = new System.Drawing.Size(104, 13);
+            this.NText.Size = new System.Drawing.Size(116, 13);
             this.NText.TabIndex = 3;
-            this.NText.Text = "Через сколько лет";
+            this.NText.Text = "Через сколько часов";
             // 
             // S
             // 
